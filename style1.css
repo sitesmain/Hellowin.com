@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Exo2-Medium";
+  src: url("../fonts/Exo2-Medium.ttf");
+}
+@font-face {
+  font-family: "Exo2-MediumItalic";
+  src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "Exo2-Bold";
+  src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+  font-family: "Exo2-BoldItalic";
+  src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+* {                             
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#block-body {
+    width: 1035px;
+    margin: 5px auto;
+    height: auto;
+}
+header {
+   width: 1035px; 
+   height: 65px;
+   background-size: 50%;
+}
+#block-content {
+    width: 1035px;
+    height: auto;
+    min-height: 500px;
+}
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.use {
+    color: #aa064b;
+    
+}
+.web {
+    color: #429595; 
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 65px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: #000000;
+}
+.block-top-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.block-top-auth a {
+    text-decoration: none;
+    color: white;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+
+.header {text-align: center;}.head-img {width: 1920px; top:1000;}
+
+body {
+	background-image: url('zzzzzz.jpg');
+}
+
+p {color: orange;
+    color: orange;
+     text-align: center;
+     margin-right: 0px;
+     margin-left: 0px;
+     font-size: 150%;
+     font-weight: 700;
+}
+
+h1{color:orange;
+     text-align:center;
+     font-size: 300%;
+}
+
+h2{color:orange;
+     text-align:center;
+     font-size: 300%;
+}
+
+h3{color:orange;
+     text-align:center;
+     font-size: 150%;
+}
+
+footer {
+    background-image: url('https://i.ibb.co/vYr3V3d/SKULL-1.jpg');
+    left: 0;
+  bottom: 0;
+  margin-left: -434px;
+  width: 184%;
+  height: 91px;
+  text-align: center;
+}
+
+a {
+    color:#ff7518;
+}
+/*СЛАЙДЕР*/
+
+.slperekhodnik{
+max-width: 38em;
+margin: 0 auto;
+width: 100%;
+}
+
+.gablok_sedakoda{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.slayder_karusel{
+position: relative;
+width: 500%;
+font-size: 0;
+animation: 12s gablok_sedakoda-ani infinite;
+}
+
+.slayder_karusel figure{
+width: 20%;
+height: auto;
+display: inline-block;
+position: inherit;
+}
+
+.slayder_karusel img{
+max-width: 100%;
+vertical-align: bottom;
+}
+
+.slayder_karusel img:hover{
+filter: grayscale(90%);
+}
+
+@keyframes gablok_sedakoda-ani{
+0%{
+left: 0%;
+}
+
+20%{
+left: 0%;
+}
+
+25%{
+left: -100%;
+}
+
+45%{
+left: -100%;
+}
+
+50%{
+left: -200%;
+}
+
+70%{
+left: -200%;
+}
+
+75%{
+left: -300%;
+}
+
+95%{
+left: -300%;
+}
+
+100%{
+left: -400%;
+}
+
+
+
